@@ -4,11 +4,11 @@ package ua.epam;
  * Created by Viktoriia_Marynchak on 9/19/2016.
  */
 public class EmployeeEPAM {
-    protected String firstname;
-    protected String lastName;
-    protected int age;
-    protected String education;
-    protected String maritalStatus;
+    private String firstname;
+    private String lastName;
+    private int age;
+    private String education;
+    private String maritalStatus;
 
     public EmployeeEPAM(String firstname, String lastName, int age, String education, String maritalStatus) {
         this.firstname = firstname;

@@ -4,7 +4,7 @@ package ua.epam;
  * Created by Viktoriia_Marynchak on 9/19/2016.
  */
 public class EmployeeRD extends EmployeeEPAM {
-    protected Course course;
+    private Course course;
 
     public EmployeeRD(String firstname, String lastName, int age, String education, String maritalStatus, Course course) {
         super(firstname, lastName, age, education, maritalStatus);

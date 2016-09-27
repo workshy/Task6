@@ -15,5 +15,6 @@ public class Main {
         boolean isEquals3 = smith.equals(adams);
 
 
+
     }
 }
